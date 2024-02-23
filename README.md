@@ -17,6 +17,7 @@ Program didesain menjadi empat class
 Class `Product` memiliki child yaitu class `Clothing` karena Clothing  dan Product merupakan objek yang sama, Clothing termasuk Product, tetapi tidak semua Product adalah Clothing  sehingga relasinya tidak dapat dibalik. Class `Clothing` memiliki child yaitu class `Shirt` karena Shirt merupakan Clothing , tapi tidak semua Clothing  merupakan Shirt (Clothing  terdiri dari Shirt, Celana, Topi DLL) maka relasinya tidak dapat dibalik. Maka dengan relasi seperti itu class `Shirt` menjadi cucu dari class `Product` karena merupakan objek yang sama juga, Shirt masuk kedalam Product.
 
 Desain relasi algoritma menggunakan class diagram:
+
 ![Desain Program LP2](https://github.com/FikryIdhamD/LP2DPBO2024C2/assets/147605722/51522751-3b99-459b-a379-6a0b58abd7e5)
 
 Pada class `Product` terdapat 4 atribut:
